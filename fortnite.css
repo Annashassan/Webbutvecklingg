@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+body{
+    font-family: sans-serif;
+    background-color:black;
+    color: white;
+    margin: 0;
+    padding: 20px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+    background-image: url(../images/fortnite4k.jpeg);
+    /* background-size: contain; */
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    
+}
+
+
+
+.main{
+    width: 50%;
+    margin: auto;
+}    
+
+
+
+/* main{
+    width: 100%;
+    max-width: 800%;
+    text-align: leftha;
+} */
+
+.hero-image{
+    width: 100%;
+    border-radius: 25px;
+    margin-bottom: 10px;
+}
+
+/* p{
+    width: 70%;
+    align-items: center;
+    
+} */

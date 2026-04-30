@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: darkgrey;
+    background: url(images/ps5.jpg)
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #222;
+    padding: 1rem;
+    color: white;
+    position: relative;
+  }
+
+ 
+
+
+
+.main{
+  background-color:rgba(0,0,0,.100);
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 50px;
+  flex-wrap: wrap;
+  margin-top: 70px;
+  text-align: center;
+  color:white;
+  
+  
+}
+
+.warzone{
+  border-radius: 10px;
+  width: 300px;
+  padding: 20px;
+  padding-top: 10px;
+  background: black;
+  width: fit-content;
+}
+.gta5{
+  border-radius: 10px;
+  width: 300px;
+  padding: 20px;
+  padding-top: 10px;
+  background: black;
+  width: fit-content;
+}
+.fortnite{
+  border-radius: 10px;
+  width: 300px;
+  padding: 20px;
+  padding-top: 10px;
+  background: black;
+  width: fit-content;
+}
+
+
+  .logo {
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
+  .menu {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .menu a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .menu a:hover {
+    text-decoration: underline;
+  }
+  
+  .menu-toggle {
+    display: none;
+    font-size: 1.8rem;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  
+  /* ===== Mobil ===== */
+  @media (max-width: 768px) {
+  
+    .menu-toggle {
+      display: block;
+    }
+  
+    .menu {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      background: #333;
+      flex-direction: column;
+      overflow: hidden;
+  
+      max-height: 0;
+      transition: max-height 0.3s ease;
+    }
+  
+    .menu li {
+      text-align: center;
+      padding: 1rem 0;
+    }
+  
+    .menu.active {
+      max-height: 300px; /* justera efter behov */
+    }
+  }
+
+  main{
+    padding: 1rem;
+    color: white;
+    min-height: 100vh;
+    background: url(bg.webp);
+    background-size: cover;
+}
